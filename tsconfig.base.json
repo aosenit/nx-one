@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-monorepo/shared-components": ["shared-components/src/index.ts"],
+      "home/Routes": ["apps/home/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
